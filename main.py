@@ -3,6 +3,8 @@ from tkinter import messagebox
 import qrcode
 from PIL import ImageTk
 
+# Начало класса
+
 class QRGeration(tk.Tk):
     def __init__(self):
         super().__init__()
